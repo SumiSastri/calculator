@@ -1,115 +1,110 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    font-family: 'Stylish', sans-serif;
+	box-sizing: border-box;
+	font-family: 'Stylish', sans-serif;
 }
 
 html,
 body {
-    font-family: 'Stylish', sans-serif;
-    margin: 0;
-    padding: 10px;
-    min-height: 100vh;
-    background: purple;
+	font-family: 'Stylish', sans-serif;
+	margin: 0;
+	padding: 10px;
+	min-height: 100vh;
+	background: brown;
 }
 
 h4 {
-    font-size: 30px;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
+	font-size: 30px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	color: burlywood;
 }
 
 button {
-    background: palevioletred;
-    font-family: 'Stylish', sans-serif;
-    cursor: pointer;
-    font-size: 14px;
-    border: 1 px, solid, white;
-    outline: none;
+	background: linear-gradient(burlywood, blanchedalmond);
+	font-family: 'Stylish', sans-serif;
+	cursor: pointer;
+	font-size: 20px;
+	border: 1px, solid, white;
+	outline: none;
 }
 
 button:hover {
-    background-color: purple;
-}
-
-.calculator-styling {
-    background: linear-gradient(pink, blueviolet);
-    height: 450px;
-    width: 350px;
-    border: solid rgb(46, 10, 46);
-    padding: 20px;
+	background-color: navajowhite;
 }
 
 .calculator-grid {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    min-height: 100vh;
-    grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	min-height: 100vh;
+	grid-template-columns: repeat(4, 100px);
+	grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
 
 .span-two {
-    grid-column: span 2;
+	grid-column: span 2;
 }
 
 .print-output {
-    background: linear-gradient(pink, blueviolet);
-    grid-column: 1/ -1;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-    flex-direction: column;
-    word-wrap: break-word;
-    word-break: break-all;
-    padding: 10 px;
+	background: peru;
+	grid-column: 1/ -1;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+	flex-direction: column;
+	word-wrap: break-word;
+	word-break: break-all;
+	padding: 10px;
 }
 
 .print-output .print-history {
-    background: linear-gradient(pink, blueviolet);
-    color: white;
-    font-size: 16px;
+	background: lightgoldenrodyellow;
+	font-size: 25px;
+	padding: 25px;
+	border: solid 1px brown;
 }
 
 .print-output .print-current {
-    background: linear-gradient(pink, blueviolet);
-    color: black;
-    font-size: 20px;
+	background: linear-gradient(lightyellow, goldenrod);
+	font-size: 25px;
+	padding: 25px;
+	border: solid 1px brown;
 }
 
 .calculator-styling {
-    background: linear-gradient(pink, blueviolet);
-    height: 350px;
-    width: 350px;
-    border: solid rgb(46, 10, 46);
+	background: linear-gradient(lightblue, navajowhite);
+	height: 350px;
+	width: 350px;
+	border: solid 3px antiquewhite;
 }
 
+/* Looks like irrelevant styling - check video */
 .calculator-box {
-    height: 200px;
-    width: 200px;
-    border: solid rgb(46, 10, 46);
-    margin: auto;
+	height: 200px;
+	width: 200px;
+	border: solid 3px navy;
+	margin: auto;
 }
 
 .calculations {
-    background: linear-gradient(pink, blueviolet);
-    width: 100px;
+	background: linear-gradient(pink, blueviolet);
+	width: 100px;
 }
 
 .number,
 .operator,
 .decimal {
-    background: pink;
-    height: 18px;
-    width: 18px;
+	background: pink;
+	height: 18px;
+	width: 18px;
 }
-
 .operator {
-    font-weight: bolder;
+	font-weight: bolder;
 }
 
 .decimal {
-    text-align: center;
+	text-align: center;
 }
